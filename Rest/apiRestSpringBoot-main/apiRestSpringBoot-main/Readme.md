@@ -1,5 +1,5 @@
 # Laboratorio de API Rest con Spring Boot
-
+#Grupo 3 Karla Ansatuña - Trejo Alex
 ## Descripción
 
 Este proyecto es un laboratorio de API Rest con Spring Boot, en el cual se implementan los siguientes servicios:
