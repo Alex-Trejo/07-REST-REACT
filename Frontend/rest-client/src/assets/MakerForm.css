@@ -1,0 +1,94 @@
+/* Estilos para MakerForm */
+
+h2 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  form {
+  margin: 20px auto; /* Margen para centrar verticalmente y automático a los lados */
+  border: 1px solid #ccc;
+  padding: 20px;
+  max-width: 400px;
+  background-color: #242424;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="text"],
+  form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  form button[type="submit"] {
+    background-color: #4CAF50;
+  }
+  
+  form button[type="button"] {
+    background-color: #f44336;
+  }
+  
+  form button:hover {
+    opacity: 0.8;
+  }
+  
+  p.error-message {
+    color: red;
+  }
+  
+  /* Estilos para la lista de fabricantes */
+  
+  ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  ul li {
+    padding: 10px;
+    background-color: #293272;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  ul li button {
+    margin-left: 10px;
+    padding: 6px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  ul li button:hover {
+    opacity: 0.8;
+  }
+  

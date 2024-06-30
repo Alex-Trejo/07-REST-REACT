@@ -1,0 +1,75 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+    text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Estilos para la estructura principal de la aplicación */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Establece el alto mínimo de la página completa */
+  position: relative; /* Para poder posicionar el footer de forma absoluta */
+  width: 100%; /* Establece el ancho al 100% */
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.App-main {
+  display: flex; /* Usa flexbox para alinear los elementos en el main */
+  flex-direction: column; /* Alinea los elementos en columna */
+  flex: 1; /* Esto expandirá el contenido principal para llenar el espacio restante */
+  padding: 10px;
+}
+
+.App-main > section {
+  margin-bottom: 10px; /* Agrega margen inferior entre las secciones */
+}
+
+.App-footer {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 10px 0; /* Añade espaciado interno para el contenido del footer */
+  width: 100%; /* Establece el ancho al 100% */
+}
